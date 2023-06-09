@@ -36,6 +36,10 @@ header h1 {
     margin: 15px 0;
 }
 
+.item {
+    border-top: 5px solid rgb(255 125 0 / 79%);
+}
+
 img {
     width: 100%;
 }
@@ -46,6 +50,10 @@ section {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
+}
+
+.item-bottom {
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 500px) {

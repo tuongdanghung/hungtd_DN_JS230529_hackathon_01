@@ -52,6 +52,10 @@ section {
     padding: 20px;
 }
 
+.item-bottom {
+    margin-top: 15px;
+}
+
 @media only screen and (max-width: 500px) {
     section {
         grid-template-columns: repeat(1, 1fr);

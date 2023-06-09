@@ -159,7 +159,7 @@ aside {
 }
 
 .top-aside {
-    padding: 15px 60px 15px 15px;
+    padding: 15px 60px 15px 20px;
     background-color: #3E3E3E;
     color: #fff;
 }
@@ -242,12 +242,12 @@ section hr {
     border: 1px solid red;
 }
 
-.footer {
+footer {
     background-color: #252928;
     padding: 30px;
 }
 
-footer {
+.footer {
     grid-area: footer;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -279,7 +279,7 @@ footer {
     padding: 10px 20px;
 }
 
-.footer span {
+footer span {
     color: #fff;
     display: block;
     max-width: 1200px;
@@ -296,7 +296,7 @@ footer {
         font-size: 15px;
     }
 
-    footer {
+    .footer {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
@@ -384,20 +384,28 @@ footer {
         font-size: 14px;
     }
 
-    .footer {
+    footer {
         text-align: center;
         gap: 10px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    footer {
+    .footer {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .right-aside {
+        margin-top: 20px;
     }
 }
 
-@media only screen and (max-width: 429px) {
-    footer {
+@media only screen and (max-width: 450px) {
+    .footer {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    aside ul li {
+        flex-direction: column;
     }
 }

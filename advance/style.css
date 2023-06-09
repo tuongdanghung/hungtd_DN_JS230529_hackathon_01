@@ -72,7 +72,6 @@ header {
 
 .navigation {
     display: flex;
-    gap: 1rem;
     padding: 10px 20px;
     border: 1px solid black;
     background-color: #3E3E3E;

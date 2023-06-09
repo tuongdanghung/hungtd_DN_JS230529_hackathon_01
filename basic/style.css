@@ -36,6 +36,10 @@ header h1 {
     margin: 15px 0;
 }
 
+.item {
+    border-top: 5px solid rgba(255, 255, 0, 0.789);
+}
+
 img {
     width: 100%;
 }
